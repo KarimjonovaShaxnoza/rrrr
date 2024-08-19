@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.our-services {
+  background-color: #1f242d;
+}
+
+.container {
+  max-width: 1440px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+body {
+    background: #1F242D;
+}
+
+.row1 h1{
+   color: white;
+   font-family: Poppins;
+}
+
+.spann {
+    color: #00EEFF;
+}
+
+.row1 {
+    padding-top: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    gap: 42px;
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    text-align: left;
+}
+
+
+.our-text {
+  padding-top: 92px;
+  margin-bottom: 27px;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 67.5px;
+  color: white;
+}
+
+.our-text span {
+  color: #00eeff;
+}
+
+.row-1 {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding-bottom: 237px;
+}
+
+.card {
+  width: 380px;
+  background-color: #323946;
+  text-align: center;
+  border-radius: 20px;
+  border: 0.5px solid aqua;
+  padding: 42px 29px;
+}
+
+.card-title {
+  margin-top: 2px;
+  font-family: Poppins;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 39px;
+  color: white;
+}
+
+.card-subtitle {
+  margin-top: 8px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: white;
+}
+
+.cardBtn {
+  width: 151px;
+  text-align: center;
+  padding: 11px 0;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 1px;
+  color: #323946;
+  box-shadow: 0px 0px 10px 0px #00eeff;
+  background-color: #00eeff;
+  border: none;
+  margin-top: 20px;
+  border-radius: 40px;
+}
+
+
+.hero-right img{
+  width: 504px;
+  height: 611px;
+}
+
+.hero-left h4 {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  color: white;
+}
+
+.hero-left h2 {
+  font-family: Poppins;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 72.8px;
+  text-align: left;
+  color: white;
+}
+
+.hero-left h3 {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  color: white;
+}
+
+.hero-left span {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  color: #00EEFF;
+}
+
+.hero-left p {
+  padding-top: 15px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  width: 500px;
+  color: white;
+}
+
+.icon {
+  padding-top: 31px;
+}
+
+.roww button {
+  margin-top: 30px;
+  width: 176.59px;
+  padding: 11px 28px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 0px #00EEFF;
+  border: none;
+  background: #00EEFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #323946;
+
+}
+
+.roww {
+  padding-top: 221.09px;
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  padding-top: 100px;
+  background: #323946;
+  padding-bottom: 163px;
+}
+
+.row12 h1 {
+  text-align: center;
+  font-family: Poppins;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 67.5px;
+  text-align: center;
+  color: white;
+}
+
+.cards {
+  margin-top:  40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  border-radius: 10px;
+}
+
+.row12 span {
+  color: #00EEFF;
+  font-family: Poppins;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 67.5px;
+  text-align: center;
+}
+
+ .images {
+  border-radius: 20px;
+  width: 376.94px;
+}
+
+.cat h2 {
+  padding-top: 100px;
+  font-family: Poppins;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 67.5px;
+  text-align: center;
+  color: white;
+}
+
+.cat span {
+  font-family: Poppins;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 67.5px;
+  text-align: center;
+  color: #00EEFF;
+}
+
+.catte {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+}
+
+.cattes {
+  padding-top: 14px;
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+}
+
+input {
+  background: #323946;
+  border: none;
+  width: 343px;
+  height: 55px;
+  padding: 15px 0px 0px 0px;
+  border-radius: 10px;
+}
+
+.textarea textarea{
+  width: 700px;
+  height: 280px;
+  margin-top: 14px;
+  background: #323946;
+  border-radius: 10px;
+}
+
+.textarea{
+display: flex;
+justify-content: center;
+}
+.forbutton{
+  display: flex;
+  justify-content: center;
+}
+
+
+.row2 button {
+  margin-top: 30px;
+  width: 186.59px;
+  padding: 11px 28px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 0px #00EEFF;
+  border: none;
+  background: #00EEFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 1px;
+  color: #323946;
+}
+
+footer {
+  margin-top: 160px;
+  background: #323946;
+  height: 80px;
+  align-items: center;
+  display: flex;
+}
+
+.foot-text {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: white;
+}
+
+@media (max-width: 1024px) {
+  .row1 h1 {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    text-align: left;
+  }
+
+  ul {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    text-align: left;
+  }
+
+  .card {
+    width: 268px;
+    padding: 20px;
+  }
+
+  .card-title {
+    font-size: 20px;
+  }
+
+  .card-subtitle {
+    font-size: 14px;
+  }
+
+  .icon-img img {
+    width: 50px;
+  }
+
+  .hero-right img{
+    width: 358.39px;
+    height: 434.95px;
+  }
+
+  .cards .images {
+    width: 265px;
+    height: 177px;
+  }
+
+  
+}
+
+
+@media (max-width: 768px) {
+  .row-1 {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .card:nth-child(3) {
+    width: 721px;
+  }
+
+  ul {
+    display: none;
+  }
+  
+  .roww {
+    flex-direction: column;
+  } 
+
+  .hero-right {
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+  }
+
+  .card1 {
+   width: 349px;
+   height: 233px;
+   gap: 22px;
+   flex-wrap: wrap;
+  }
+  
+  .cards .images {
+    width: 349px;
+    height: 233px;
+    display: flex;
+  }
+ 
+  }
+
+  @media (max-width: 390px) {
+    .row1 h1 {
+      font-family: Poppins;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 30px;
+    }
+
+    .hero-left h4 {
+      font-family: Poppins;
+    font-size: 20.8px;
+    font-weight: 700;
+    line-height: 31.2px;
+    }
+
+    .hero-left h3 {
+      font-family: Poppins;
+    font-size: 12.8px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    }
+
+    .icon {
+      width: 32px;
+      height: 32px;
+      top: 297.34px;
+      left: 103.97px;
+      padding: 8px 0px 0px 0px;
+      border-radius: 16px 0px 0px 0px;
+      border: 1px 0px 0px 0px;
+    }
+
+    .card .icon-img {
+      width: 366px;
+    }
+
+    .card {
+      width: 366px;
+    }
+
+    .hero-right img{
+      display: flex;
+      justify-content: center;
+    }
+
+    .row12 h1 {
+      font-family: Poppins;
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 54px;
+      text-align: center;
+    }
+
+    span {
+      font-family: Poppins;
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 54px;
+      text-align: center;
+
+    }
+
+  }
+
+  @media (max-width: 768px) {
+    .cards .images {
+      width: 330px;
+      height: 233px;
+     
+    }
+
+    .cat h2 {
+      font-family: Poppins;
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 54px;
+      text-align: center;
+    }
+    span{
+      font-family: Poppins;
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 54px;
+      text-align: center;
+    }
+
+    /* .catte {
+      flex-direction: column;
+    }
+
+    .cattes {
+      flex-direction: column;
+    }
+  
+    .textarea {
+      width: 366px;
+    } */
+  }
